@@ -1,0 +1,29 @@
+<?xml version="1.0" standalone="yes"?>
+<DataSet1 xmlns="http://tempuri.org/DataSet1.xsd">
+  <Kunde>
+    <Id>0</Id>
+    <Name>Test</Name>
+    <Vorname>Toni</Vorname>
+    <Telefon>12345</Telefon>
+    <Kundennummer>1</Kundennummer>
+  </Kunde>
+  <Kunde>
+    <Id>2</Id>
+    <Name>Mustermann</Name>
+    <Vorname>Max</Vorname>
+    <Telefon>23456</Telefon>
+    <Kundennummer>2</Kundennummer>
+  </Kunde>
+  <DetailsBestellung>
+    <Id>0</Id>
+    <IdKunde>0</IdKunde>
+    <Bestellnummer>123456789</Bestellnummer>
+    <Datum>14.06.14</Datum>
+  </DetailsBestellung>
+  <DetailsBestellung>
+    <Id>2</Id>
+    <IdKunde>2</IdKunde>
+    <Bestellnummer>2347</Bestellnummer>
+    <Datum>15.06.14</Datum>
+  </DetailsBestellung>
+</DataSet1>

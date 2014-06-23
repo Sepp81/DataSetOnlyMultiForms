@@ -1,0 +1,33 @@
+\\nv02538.bmwgroup.net\q345356\visual studio 2013\Projects\DateSetBsp\DateSetBsp\bin\Debug\DateSetBsp.exe.config
+\\nv02538.bmwgroup.net\Q345356\Visual Studio 2013\Projects\DateSetBsp\DateSetBsp\bin\Debug\DateSetBsp.exe
+\\nv02538.bmwgroup.net\Q345356\Visual Studio 2013\Projects\DateSetBsp\DateSetBsp\bin\Debug\DateSetBsp.pdb
+\\nv02538.bmwgroup.net\Q345356\Visual Studio 2013\Projects\DateSetBsp\DateSetBsp\bin\Debug\DateSetBsp.xml
+\\nv02538.bmwgroup.net\Q345356\Visual Studio 2013\Projects\DateSetBsp\DateSetBsp\obj\Debug\DateSetBsp.Form1.resources
+\\nv02538.bmwgroup.net\Q345356\Visual Studio 2013\Projects\DateSetBsp\DateSetBsp\obj\Debug\DateSetBsp.Resources.resources
+\\nv02538.bmwgroup.net\Q345356\Visual Studio 2013\Projects\DateSetBsp\DateSetBsp\obj\Debug\DateSetBsp.vbproj.GenerateResource.Cache
+\\nv02538.bmwgroup.net\Q345356\Visual Studio 2013\Projects\DateSetBsp\DateSetBsp\obj\Debug\DateSetBsp.exe
+\\nv02538.bmwgroup.net\Q345356\Visual Studio 2013\Projects\DateSetBsp\DateSetBsp\obj\Debug\DateSetBsp.xml
+\\nv02538.bmwgroup.net\Q345356\Visual Studio 2013\Projects\DateSetBsp\DateSetBsp\obj\Debug\DateSetBsp.pdb
+C:\Users\Stephan\Documents\Visual Studio 2013\Projects\DateSetBsp\DateSetBsp\bin\Debug\DateSetBsp.exe.config
+C:\Users\Stephan\Documents\Visual Studio 2013\Projects\DateSetBsp\DateSetBsp\obj\Debug\DateSetBsp.exe
+C:\Users\Stephan\Documents\Visual Studio 2013\Projects\DateSetBsp\DateSetBsp\obj\Debug\DateSetBsp.xml
+C:\Users\Stephan\Documents\Visual Studio 2013\Projects\DateSetBsp\DateSetBsp\obj\Debug\DateSetBsp.pdb
+C:\Users\Stephan\Documents\Visual Studio 2013\Projects\DateSetBsp\DateSetBsp\bin\Debug\DateSetBsp.exe
+C:\Users\Stephan\Documents\Visual Studio 2013\Projects\DateSetBsp\DateSetBsp\bin\Debug\DateSetBsp.pdb
+C:\Users\Stephan\Documents\Visual Studio 2013\Projects\DateSetBsp\DateSetBsp\bin\Debug\DateSetBsp.xml
+C:\Users\Stephan\Documents\Visual Studio 2013\Projects\DateSetBsp\DateSetBsp\bin\Debug\HelpersSmallEd.dll
+C:\Users\Stephan\Documents\Visual Studio 2013\Projects\DateSetBsp\DateSetBsp\bin\Debug\HelpersSmallEd.pdb
+C:\Users\Stephan\Documents\Visual Studio 2013\Projects\DateSetBsp\DateSetBsp\bin\Debug\HelpersSmallEd.xml
+C:\Users\Stephan\Documents\Visual Studio 2013\Projects\DateSetBsp\DateSetBsp\obj\Debug\DateSetBsp.vbprojResolveAssemblyReference.cache
+C:\Users\Stephan\Documents\Visual Studio 2013\Projects\DateSetBsp\DateSetBsp\obj\Debug\DateSetBsp.Form1.resources
+C:\Users\Stephan\Documents\Visual Studio 2013\Projects\DateSetBsp\DateSetBsp\obj\Debug\DateSetBsp.frmKundenBearbeiten.resources
+C:\Users\Stephan\Documents\Visual Studio 2013\Projects\DateSetBsp\DateSetBsp\obj\Debug\DateSetBsp.Resources.resources
+C:\Users\Stephan\Documents\Visual Studio 2013\Projects\DateSetBsp\DateSetBsp\obj\Debug\DateSetBsp.vbproj.GenerateResource.Cache
+C:\Git\DataSetBsp\DateSetBsp\bin\Debug\DateSetBsp.exe.config
+C:\Git\DataSetBsp\DateSetBsp\obj\Debug\DateSetBsp.exe
+C:\Git\DataSetBsp\DateSetBsp\obj\Debug\DateSetBsp.xml
+C:\Git\DataSetBsp\DateSetBsp\obj\Debug\DateSetBsp.pdb
+C:\Git\DataSetOnlyMultiForms\DateSetBsp\bin\Debug\DateSetBsp.exe.config
+C:\Git\DataSetOnlyMultiForms\DateSetBsp\obj\Debug\DateSetBsp.exe
+C:\Git\DataSetOnlyMultiForms\DateSetBsp\obj\Debug\DateSetBsp.xml
+C:\Git\DataSetOnlyMultiForms\DateSetBsp\obj\Debug\DateSetBsp.pdb
