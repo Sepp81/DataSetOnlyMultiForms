@@ -25,6 +25,7 @@ Partial Class frmKundenBearbeiten
         Me.components = New System.ComponentModel.Container()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.DateiToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.KundeTelToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SpeichernToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.BeendenToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SplitContainer1 = New System.Windows.Forms.SplitContainer()
@@ -43,7 +44,6 @@ Partial Class frmKundenBearbeiten
         Me.DataGridViewTextBoxColumn8 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.DataGridViewTextBoxColumn9 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.DetailsBestellungBindingSource = New System.Windows.Forms.BindingSource(Me.components)
-        Me.KundeTelToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         CType(Me.SplitContainer1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SplitContainer1.Panel1.SuspendLayout()
@@ -72,6 +72,12 @@ Partial Class frmKundenBearbeiten
         Me.DateiToolStripMenuItem.Name = "DateiToolStripMenuItem"
         Me.DateiToolStripMenuItem.Size = New System.Drawing.Size(46, 20)
         Me.DateiToolStripMenuItem.Text = "Datei"
+        '
+        'KundeTelToolStripMenuItem
+        '
+        Me.KundeTelToolStripMenuItem.Name = "KundeTelToolStripMenuItem"
+        Me.KundeTelToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.KundeTelToolStripMenuItem.Text = "KundeTel"
         '
         'SpeichernToolStripMenuItem
         '
@@ -215,12 +221,6 @@ Partial Class frmKundenBearbeiten
         '
         Me.DetailsBestellungBindingSource.DataMember = "FK_Kunde_DetailsBestellung"
         Me.DetailsBestellungBindingSource.DataSource = Me.KundeBindingSource
-        '
-        'KundeTelToolStripMenuItem
-        '
-        Me.KundeTelToolStripMenuItem.Name = "KundeTelToolStripMenuItem"
-        Me.KundeTelToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
-        Me.KundeTelToolStripMenuItem.Text = "KundeTel"
         '
         'frmKundenBearbeiten
         '

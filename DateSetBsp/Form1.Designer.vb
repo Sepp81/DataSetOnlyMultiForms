@@ -35,7 +35,7 @@ Partial Class Form1
         Me.txtFrmMainKundennummer = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.cmdFindPhoneNr = New System.Windows.Forms.Button()
+        Me.cmdKundenFinden = New System.Windows.Forms.Button()
         Me.lblFrmMainKundenTeleNr = New System.Windows.Forms.Label()
         CType(Me.KundeBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DataSet1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -119,18 +119,18 @@ Partial Class Form1
         Me.Label2.AutoSize = True
         Me.Label2.Location = New System.Drawing.Point(12, 133)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(91, 13)
+        Me.Label2.Size = New System.Drawing.Size(73, 13)
         Me.Label2.TabIndex = 7
-        Me.Label2.Text = "Kundentelefonnr.:"
+        Me.Label2.Text = "Kundenname:"
         '
-        'cmdFindPhoneNr
+        'cmdKundenFinden
         '
-        Me.cmdFindPhoneNr.Location = New System.Drawing.Point(15, 83)
-        Me.cmdFindPhoneNr.Name = "cmdFindPhoneNr"
-        Me.cmdFindPhoneNr.Size = New System.Drawing.Size(129, 23)
-        Me.cmdFindPhoneNr.TabIndex = 8
-        Me.cmdFindPhoneNr.Text = "Telefonnr. suchen"
-        Me.cmdFindPhoneNr.UseVisualStyleBackColor = True
+        Me.cmdKundenFinden.Location = New System.Drawing.Point(12, 95)
+        Me.cmdKundenFinden.Name = "cmdKundenFinden"
+        Me.cmdKundenFinden.Size = New System.Drawing.Size(84, 23)
+        Me.cmdKundenFinden.TabIndex = 8
+        Me.cmdKundenFinden.Text = "Finde Kunden"
+        Me.cmdKundenFinden.UseVisualStyleBackColor = True
         '
         'lblFrmMainKundenTeleNr
         '
@@ -147,7 +147,7 @@ Partial Class Form1
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(900, 440)
         Me.Controls.Add(Me.lblFrmMainKundenTeleNr)
-        Me.Controls.Add(Me.cmdFindPhoneNr)
+        Me.Controls.Add(Me.cmdKundenFinden)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.txtFrmMainKundennummer)
@@ -178,7 +178,7 @@ Partial Class Form1
     Friend WithEvents txtFrmMainKundennummer As System.Windows.Forms.TextBox
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents Label2 As System.Windows.Forms.Label
-    Friend WithEvents cmdFindPhoneNr As System.Windows.Forms.Button
+    Friend WithEvents cmdKundenFinden As System.Windows.Forms.Button
     Friend WithEvents lblFrmMainKundenTeleNr As System.Windows.Forms.Label
 
 End Class

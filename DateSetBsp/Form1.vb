@@ -1,4 +1,6 @@
 ﻿'Verweis Microsoft.VisualBasic entfernt
+'Helpers Projekt bereitgestellt von ErfinderDesRades
+'Projekt zeigt wie die BindingSurce des DataSet auf verschiede Forms umgehängt werden kann
 Option Strict On
 Option Explicit On
 
@@ -18,6 +20,7 @@ Public Class Form1
 
     End Sub
 
+    '### MenuStrip ###
     Private Sub KundenEingebenToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles KundenEingebenToolStripMenuItem.Click
         Dim KundenBearbeiten As New frmKundenBearbeiten
         If KundenBearbeiten Is Nothing OrElse frmKundenBearbeiten.IsDisposed Then
@@ -35,10 +38,8 @@ Public Class Form1
         Me.Close()
     End Sub
 
-
-    Private Sub cmdFindPhoneNr_Click(sender As Object, e As EventArgs) Handles cmdFindPhoneNr.Click
-
-
+    '### Hauptfunktionalität ###
+    Private Sub cmdFindPhoneNr_Click(sender As Object, e As EventArgs) Handles cmdKundenFinden.Click
         Dim FindeDenKunden As New frmKundenBearbeiten
         Dim Eingabe As Integer
         Try
@@ -54,7 +55,7 @@ Public Class Form1
         If gefundenKunden Is Nothing Then
             MessageBox.Show("Kein Kunden gefunden")
         Else
-            lblFrmMainKundenTeleNr.Text = gefundenKunden.Telefon
+            lblFrmMainKundenTeleNr.Text = gefundenKunden.KundeRow.Name
         End If
     End Sub
 End Class
