@@ -7,12 +7,10 @@ Imports System.IO
 
 Public Class frmKundenBearbeiten
 
-    Private _kundendaten As New FileInfo("Kundendaten.xml")
-
     Private Sub frmKundenBearbeiten_Load(sender As Object, e As EventArgs) _
       Handles MyBase.Load
         Me.AlignOnTop()
-        DataSet1.Register(Me, True).Fill()
+        DataSet1.Register(Me, True)
     End Sub
 
     Private Sub SpeichernToolStripMenuItem_Click(sender As Object, e As  _
