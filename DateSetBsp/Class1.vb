@@ -2,7 +2,15 @@
 Option Strict On
 Option Explicit On
 
+Imports DateSetBsp.DataSet1
+Imports System.IO
+
 Public Class Class1
+
+    Private Sub test()
+        DataSet1.Register(Class1, True).Fill()
+    End Sub
+
 
     'Private Sub cmdLstBstSenden_Click(sender As Object, e As EventArgs)
     '    'Dim KundenBestellung As New Class

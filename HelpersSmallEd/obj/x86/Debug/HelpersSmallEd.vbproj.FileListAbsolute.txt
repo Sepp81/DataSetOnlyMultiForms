@@ -8,3 +8,14 @@ C:\Users\Stephan\Documents\Visual Studio 2013\Projects\DateSetBsp\HelpersSmallEd
 C:\Users\Stephan\Documents\Visual Studio 2013\Projects\DateSetBsp\HelpersSmallEd\obj\x86\Debug\HelpersSmallEd.dll
 C:\Users\Stephan\Documents\Visual Studio 2013\Projects\DateSetBsp\HelpersSmallEd\obj\x86\Debug\HelpersSmallEd.xml
 C:\Users\Stephan\Documents\Visual Studio 2013\Projects\DateSetBsp\HelpersSmallEd\obj\x86\Debug\HelpersSmallEd.pdb
+C:\Git\DataSetOnlyMultiForms\HelpersSmallEd\bin\Debug\HelpersSmallEd.dll
+C:\Git\DataSetOnlyMultiForms\HelpersSmallEd\bin\Debug\HelpersSmallEd.pdb
+C:\Git\DataSetOnlyMultiForms\HelpersSmallEd\bin\Debug\HelpersSmallEd.xml
+C:\Git\DataSetOnlyMultiForms\HelpersSmallEd\obj\x86\Debug\HelpersSmallEd.vbprojResolveAssemblyReference.cache
+C:\Git\DataSetOnlyMultiForms\HelpersSmallEd\obj\x86\Debug\Resources.resources
+C:\Git\DataSetOnlyMultiForms\HelpersSmallEd\obj\x86\Debug\System.Data.DataEditor.resources
+C:\Git\DataSetOnlyMultiForms\HelpersSmallEd\obj\x86\Debug\dlgInputTemplate.resources
+C:\Git\DataSetOnlyMultiForms\HelpersSmallEd\obj\x86\Debug\HelpersSmallEd.vbproj.GenerateResource.Cache
+C:\Git\DataSetOnlyMultiForms\HelpersSmallEd\obj\x86\Debug\HelpersSmallEd.dll
+C:\Git\DataSetOnlyMultiForms\HelpersSmallEd\obj\x86\Debug\HelpersSmallEd.xml
+C:\Git\DataSetOnlyMultiForms\HelpersSmallEd\obj\x86\Debug\HelpersSmallEd.pdb

@@ -43,6 +43,7 @@ Partial Class frmKundenBearbeiten
         Me.DataGridViewTextBoxColumn8 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.DataGridViewTextBoxColumn9 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.DetailsBestellungBindingSource = New System.Windows.Forms.BindingSource(Me.components)
+        Me.KundeTelToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         CType(Me.SplitContainer1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SplitContainer1.Panel1.SuspendLayout()
@@ -67,7 +68,7 @@ Partial Class frmKundenBearbeiten
         '
         'DateiToolStripMenuItem
         '
-        Me.DateiToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.SpeichernToolStripMenuItem, Me.BeendenToolStripMenuItem})
+        Me.DateiToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.KundeTelToolStripMenuItem, Me.SpeichernToolStripMenuItem, Me.BeendenToolStripMenuItem})
         Me.DateiToolStripMenuItem.Name = "DateiToolStripMenuItem"
         Me.DateiToolStripMenuItem.Size = New System.Drawing.Size(46, 20)
         Me.DateiToolStripMenuItem.Text = "Datei"
@@ -75,13 +76,13 @@ Partial Class frmKundenBearbeiten
         'SpeichernToolStripMenuItem
         '
         Me.SpeichernToolStripMenuItem.Name = "SpeichernToolStripMenuItem"
-        Me.SpeichernToolStripMenuItem.Size = New System.Drawing.Size(126, 22)
+        Me.SpeichernToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.SpeichernToolStripMenuItem.Text = "Speichern"
         '
         'BeendenToolStripMenuItem
         '
         Me.BeendenToolStripMenuItem.Name = "BeendenToolStripMenuItem"
-        Me.BeendenToolStripMenuItem.Size = New System.Drawing.Size(126, 22)
+        Me.BeendenToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.BeendenToolStripMenuItem.Text = "Beenden"
         '
         'SplitContainer1
@@ -215,6 +216,12 @@ Partial Class frmKundenBearbeiten
         Me.DetailsBestellungBindingSource.DataMember = "FK_Kunde_DetailsBestellung"
         Me.DetailsBestellungBindingSource.DataSource = Me.KundeBindingSource
         '
+        'KundeTelToolStripMenuItem
+        '
+        Me.KundeTelToolStripMenuItem.Name = "KundeTelToolStripMenuItem"
+        Me.KundeTelToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.KundeTelToolStripMenuItem.Text = "KundeTel"
+        '
         'frmKundenBearbeiten
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -262,4 +269,5 @@ Partial Class frmKundenBearbeiten
     Friend WithEvents DataGridViewTextBoxColumn2 As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents DataGridViewTextBoxColumn3 As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents DataGridViewTextBoxColumn4 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents KundeTelToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
 End Class

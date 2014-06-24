@@ -6,9 +6,7 @@ HelpersSmallEd
 </name>
 </assembly>
 <members>
-<member name="T:System.Data.DataTableAttach">
-	<summary>stores Stuff to suspend databinding-events</summary>
-</member><member name="P:My.Resources.Resources.ResourceManager">
+<member name="P:My.Resources.Resources.ResourceManager">
 	<summary>
   Gibt die zwischengespeicherte ResourceManager-Instanz zurück, die von dieser Klasse verwendet wird.
 </summary>
@@ -21,68 +19,6 @@ HelpersSmallEd
 	<summary>
   Eine stark typisierte Ressourcenklasse zum Suchen von lokalisierten Zeichenfolgen usw.
 </summary>
-</member><member name="T:System.Data.DatasetAdapterBase">
-	<summary>some common basics of DatasetXmlAdapter and DatasetAdapter</summary>
-</member><member name="M:System.Windows.Forms.BindingSourceX.EditNew``1(System.Windows.Forms.BindingSource)">
-	<summary> editiert bs.Current im angegebenen Dialog-Form. </summary>
-</member><member name="M:System.Windows.Forms.BindingSourceX.EditCurrent``1(System.Windows.Forms.BindingSource)">
-	<summary> editiert bs.AddNew im angegebenen Dialog-Form. </summary>
-</member><member name="M:System.Windows.Forms.BindingSourceX.FilterX(System.Windows.Forms.BindingSource,System.String,System.Object[])">
-	<summary>
- provides a placeholder-syntax for filters. Sample: dv.FilterX("Datum &gt;= ? And ? &gt;= Datum", dtpVon.Value, dtpBis.Value)
- </summary>
-	<exception cref="T:System.ArgumentException">expression contains more placeholders than values are passed</exception>
-</member><member name="M:System.Windows.Forms.BindingSourceX.FilterX(System.Data.DataView,System.String,System.Object[])">
-	<summary>
- provides a placeholder-syntax for filters. Sample: dv.FilterX("Datum &gt;= ? And ? &gt;= Datum", dtpVon.Value, dtpBis.Value)
- </summary>
-	<exception cref="T:System.ArgumentException">expression contains more placeholders than values are passed</exception>
-</member><member name="M:System.Windows.Forms.BindingSourceX.At``1(System.Data.DataView,System.Int32)">
-	<summary>
- returnt die Datarow am index. Bei ungültigem index Nothing (keine OutOfRange-Exception!)
- </summary>
-</member><member name="M:System.Windows.Forms.BindingSourceX.At``1(System.Windows.Forms.BindingSource)">
-	<summary> returnt die typisierte Datarow an aktueller Position - oder Nothing. </summary>
-</member><member name="M:System.Windows.Forms.BindingSourceX.At``1(System.Windows.Forms.BindingSource,System.Int32)">
-	<summary>
- returnt die typisierte Datarow am index. Bei ungültigem index Nothing (keine OutOfRange-Exception!)
- </summary>
-</member><member name="M:System.Windows.Forms.BindingSourceX.At(System.Windows.Forms.BindingSource)">
-	<summary> returnt die untypisierte Datarow an aktueller Position. </summary>
-</member><member name="M:System.Windows.Forms.BindingSourceX.At(System.Windows.Forms.BindingSource,System.Int32)">
-	<summary>
- returnt die Datarow am index. Bei ungültigem index Nothing (keine OutOfRange-Exception!)
- </summary>
-</member><member name="M:System.Windows.Forms.BindingSourceX.MoveTo(System.Windows.Forms.BindingSource,System.Object[])">
-	<summary> stellt den Datensatz mit den angegebenen Primärschlüssel-Werten ein </summary>
-</member><member name="M:System.Windows.Forms.BindingSourceX.MoveTo(System.Windows.Forms.BindingSource,System.Object)">
-	<summary> stellt den Datensatz mit dem angegebenen Primärschlüssel-Wert ein </summary>
-</member><member name="M:System.Windows.Forms.BindingSourceX.MoveTo(System.Windows.Forms.BindingSource,System.String,System.Object)">
-	<summary> 
- stellt den ersten Datensatz ein, dessen Wert in der angegebenen spalte mit Key übereinstimmt
- </summary>
-</member><member name="M:System.Windows.Forms.BindingSourceX.MoveTo(System.Windows.Forms.BindingSource,System.Data.DataRow)">
-	<summary> stellt die angegebene DataRow ein </summary>
-</member><member name="M:System.Windows.Forms.BindingSourceX.MoveTo``1(System.Windows.Forms.BindingSource,System.Func{``0,System.Boolean})">
-	<summary> stellt die erste matchende DataRow ein </summary>
-</member><member name="M:System.Windows.Forms.BindingSourceX.CheckChanges(System.Data.DataSet)">
-	<summary> for debugging-purposes </summary>
-</member><member name="M:System.Windows.Forms.FormX.Persist(System.Data.DataTable,System.Boolean)">
-	<summary>mark this Table as to persist. All other tables will behave contrary. This call isn't necessary, but optimizes startup</summary>
-</member><member name="M:System.Windows.Forms.FormX.Persist``1(``0,System.Boolean,System.Data.DataTable[])">
-	<summary>mark these Tables as to persist. All other tables will behave contrary. This call isn't necessary, but optimizes startup</summary>
-</member><member name="M:System.Windows.Forms.FormX.PersistAll``1(``0)">
-	<summary>mark all Tables as to persist. This call isn't necessary, but optimizes startup</summary>
-</member><member name="M:System.Windows.Forms.FormX.Fill(System.Data.DataSet,System.Data.DataTable[])">
-	<summary>Clear dataset and refill. Optional only the given tables (not supported in dataset-only-scenarios)</summary>
-</member><member name="M:System.Windows.Forms.FormX.AlignOnTop``1(``0)">
-	<summary>dockt das Form am oberern Bildschirmrand, in voller Breite</summary>
-</member><member name="M:System.Windows.Forms.FormX.Register(System.Data.DataSet,System.Windows.Forms.Form,System.Boolean)">
-	<summary>
- registers all datasets of this type and all bindingsources of the form, to improve performance and to avoid data-redundance
- </summary>
-</member><member name="M:System.Data.DataTableX.WireUp``1(System.Data.TypedTableBase{``0},System.Action{``0},System.Action{``0},System.Action{``0})">
-	<summary>eases to implement standard-reactions on Row -init, -change, -delete</summary>
 </member><member name="T:System.Exception`1">
 	<summary> generische Exception mit genauen Daten über das fehler-werfende Objekt </summary>
 </member><member name="M:System.Collections.Generic.CollectionX.GetEnumeratorX``1(``0[])">
@@ -127,15 +63,6 @@ HelpersSmallEd
 	<summary>Stringabschnitt ab dem letzten Auftreten von sMatch (ohne sMatch) - sonst Nothing</summary>
 </member><member name="M:System.StringX.RightCut(System.String,System.String)">
 	<summary>Stringabschnitt ab dem ersten Auftreten von sMatch (ohne sMatch)</summary>
-</member><member name="M:System.IComparableX.ToComparer``1(System.Comparison{``0})">
-	<summary>
- konvertiert eine Comparison in ein IComparer-implementierendes Objekt
- </summary>
-	<remarks>selbst einen Delegaten kann man also erweitern</remarks>
-</member><member name="T:System.IComparableX.BinarySearchComparer`2">
-	<summary>erstellt einen IComparer, dem eine der beiden Seiten als Key fest vorgegeben ist - für optimierte BinarySearches.</summary>
-</member><member name="T:System.IComparableX.ComparisonComparer`1">
-	<summary>IComparer-implementierender Wrapper um eine Comparison </summary>
 </member><member name="M:System.ObjectX.TryBe``1(``0@,System.Object)">
 	<summary>trycast value to desired Type and assigns it.</summary>
 </member><member name="M:System.ObjectX.Be``1(``0@,System.Object)">
@@ -152,6 +79,79 @@ HelpersSmallEd
  nützlich bei Zuweisungen an performance-intensive Properties, 
  oder wenn auf Änderungen reagiert werden muß
  </remarks>
+</member><member name="M:System.Windows.Forms.BindingSourceX.EditNew``1(System.Windows.Forms.BindingSource)">
+	<summary> editiert bs.Current im angegebenen Dialog-Form. </summary>
+</member><member name="M:System.Windows.Forms.BindingSourceX.EditCurrent``1(System.Windows.Forms.BindingSource)">
+	<summary> editiert bs.AddNew im angegebenen Dialog-Form. </summary>
+</member><member name="M:System.Windows.Forms.BindingSourceX.FilterX(System.Windows.Forms.BindingSource,System.String,System.Object[])">
+	<summary>
+ provides a placeholder-syntax for filters. Sample: dv.FilterX("Datum &gt;= ? And ? &gt;= Datum", dtpVon.Value, dtpBis.Value)
+ </summary>
+	<exception cref="T:System.ArgumentException">expression contains more placeholders than values are passed</exception>
+</member><member name="M:System.Windows.Forms.BindingSourceX.FilterX(System.Data.DataView,System.String,System.Object[])">
+	<summary>
+ provides a placeholder-syntax for filters. Sample: dv.FilterX("Datum &gt;= ? And ? &gt;= Datum", dtpVon.Value, dtpBis.Value)
+ </summary>
+	<exception cref="T:System.ArgumentException">expression contains more placeholders than values are passed</exception>
+</member><member name="M:System.Windows.Forms.BindingSourceX.At``1(System.Data.DataView,System.Int32)">
+	<summary>
+ returnt die Datarow am index. Bei ungültigem index Nothing (keine OutOfRange-Exception!)
+ </summary>
+</member><member name="M:System.Windows.Forms.BindingSourceX.At``1(System.Windows.Forms.BindingSource)">
+	<summary> returnt die typisierte Datarow an aktueller Position - oder Nothing. </summary>
+</member><member name="M:System.Windows.Forms.BindingSourceX.At``1(System.Windows.Forms.BindingSource,System.Int32)">
+	<summary>
+ returnt die typisierte Datarow am index. Bei ungültigem index Nothing (keine OutOfRange-Exception!)
+ </summary>
+</member><member name="M:System.Windows.Forms.BindingSourceX.At(System.Windows.Forms.BindingSource)">
+	<summary> returnt die untypisierte Datarow an aktueller Position. </summary>
+</member><member name="M:System.Windows.Forms.BindingSourceX.At(System.Windows.Forms.BindingSource,System.Int32)">
+	<summary>
+ returnt die Datarow am index. Bei ungültigem index Nothing (keine OutOfRange-Exception!)
+ </summary>
+</member><member name="M:System.Windows.Forms.BindingSourceX.MoveTo(System.Windows.Forms.BindingSource,System.Object[])">
+	<summary> stellt den Datensatz mit den angegebenen Primärschlüssel-Werten ein </summary>
+</member><member name="M:System.Windows.Forms.BindingSourceX.MoveTo(System.Windows.Forms.BindingSource,System.Object)">
+	<summary> stellt den Datensatz mit dem angegebenen Primärschlüssel-Wert ein </summary>
+</member><member name="M:System.Windows.Forms.BindingSourceX.MoveTo(System.Windows.Forms.BindingSource,System.String,System.Object)">
+	<summary> 
+ stellt den ersten Datensatz ein, dessen Wert in der angegebenen spalte mit Key übereinstimmt
+ </summary>
+</member><member name="M:System.Windows.Forms.BindingSourceX.MoveTo(System.Windows.Forms.BindingSource,System.Data.DataRow)">
+	<summary> stellt die angegebene DataRow ein </summary>
+</member><member name="M:System.Windows.Forms.BindingSourceX.MoveTo``1(System.Windows.Forms.BindingSource,System.Func{``0,System.Boolean})">
+	<summary> stellt die erste matchende DataRow ein </summary>
+</member><member name="M:System.Windows.Forms.BindingSourceX.CheckChanges(System.Data.DataSet)">
+	<summary> for debugging-purposes </summary>
+</member><member name="T:System.Data.DatasetAdapterBase">
+	<summary>some common basics of DatasetXmlAdapter and DatasetAdapter</summary>
+</member><member name="M:System.Windows.Forms.FormX.Persist(System.Data.DataTable,System.Boolean)">
+	<summary>mark this Table as to persist. All other tables will behave contrary. This call isn't necessary, but optimizes startup</summary>
+</member><member name="M:System.Windows.Forms.FormX.Persist``1(``0,System.Boolean,System.Data.DataTable[])">
+	<summary>mark these Tables as to persist. All other tables will behave contrary. This call isn't necessary, but optimizes startup</summary>
+</member><member name="M:System.Windows.Forms.FormX.PersistAll``1(``0)">
+	<summary>mark all Tables as to persist. This call isn't necessary, but optimizes startup</summary>
+</member><member name="M:System.Windows.Forms.FormX.Fill(System.Data.DataSet,System.Data.DataTable[])">
+	<summary>Clear dataset and refill. Optional only the given tables (not supported in dataset-only-scenarios)</summary>
+</member><member name="M:System.Windows.Forms.FormX.AlignOnTop``1(``0)">
+	<summary>dockt das Form am oberern Bildschirmrand, in voller Breite</summary>
+</member><member name="M:System.Windows.Forms.FormX.Register(System.Data.DataSet,System.Windows.Forms.Form,System.Boolean)">
+	<summary>
+ registers all datasets of this type and all bindingsources of the form, to improve performance and to avoid data-redundance
+ </summary>
+</member><member name="M:System.IComparableX.ToComparer``1(System.Comparison{``0})">
+	<summary>
+ konvertiert eine Comparison in ein IComparer-implementierendes Objekt
+ </summary>
+	<remarks>selbst einen Delegaten kann man also erweitern</remarks>
+</member><member name="T:System.IComparableX.BinarySearchComparer`2">
+	<summary>erstellt einen IComparer, dem eine der beiden Seiten als Key fest vorgegeben ist - für optimierte BinarySearches.</summary>
+</member><member name="T:System.IComparableX.ComparisonComparer`1">
+	<summary>IComparer-implementierender Wrapper um eine Comparison </summary>
+</member><member name="T:System.Data.DataTableAttach">
+	<summary>stores Stuff to suspend databinding-events</summary>
+</member><member name="M:System.Data.DataTableX.WireUp``1(System.Data.TypedTableBase{``0},System.Action{``0},System.Action{``0},System.Action{``0})">
+	<summary>eases to implement standard-reactions on Row -init, -change, -delete</summary>
 </member><member name="M:System.IO.SystemIOX.WriteTo(System.IO.Stream,System.IO.Stream,System.Int64,System.Int32)">
 	<summary> kopiert von einem Stream in einen anderen </summary>
 	<remarks> 
